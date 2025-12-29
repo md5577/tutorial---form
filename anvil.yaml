@@ -19,8 +19,8 @@ db_schema:
     title: feedback
 dependencies: []
 metadata: {title: Material Design 15}
-name: Test - Form
-package_name: Test___Form
+name: Test_Form
+package_name: Test_Form
 renamed: true
 runtime_options:
   client_version: '3'
