@@ -20,7 +20,6 @@ from datetime import datetime
 #
 
 @anvil.server.callable
-
 def add_feedback(name, email, feedback):
   
   app_tables.feedback.add_row(
@@ -41,3 +40,4 @@ def add_feedback(name, email, feedback):
   Feedback:
   {feedback}
   """)
+
