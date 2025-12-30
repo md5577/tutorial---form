@@ -42,5 +42,6 @@ services:
 - client_config: {}
   server_config: {}
   source: /runtime/services/anvil/secrets.yml
-startup_form: Form1
+startup: {module: FeedbackForm1, type: form}
+startup_form: null
 uplink_visible: true
